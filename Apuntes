@@ -10,3 +10,7 @@ https://www.adictosaltrabajo.com/2017/05/09/crear-proyectos-modulos-y-portlets-d
 vagrant
 
 https://app.vagrantup.com/softwire/boxes/moog
+
+* run wildfly remote
+./standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0 &
+https://bgasparotto.com/enable-wildfly-remote-access
