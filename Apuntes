@@ -14,3 +14,6 @@ https://app.vagrantup.com/softwire/boxes/moog
 * run wildfly remote
 ./standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0 &
 https://bgasparotto.com/enable-wildfly-remote-access
+
+* Desabled fireword centos
+https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall/
