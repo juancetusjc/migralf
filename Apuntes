@@ -7,9 +7,17 @@ https://www.adictosaltrabajo.com/2017/05/16/creacion-de-temas-con-liferay-7/
 *liferay workspace
 https://www.adictosaltrabajo.com/2017/05/09/crear-proyectos-modulos-y-portlets-de-liferay-7-con-blade-cli/
 
-vagrant
+vagrant:
+-httpd: 2.4.6
+-ruby: 2.0.0p598
+-perl: 5.16.3
+-postgresql: 9.2.15
+-mysql: 5.7.14
+-mailcatcher: 0.6.5
 
 https://app.vagrantup.com/softwire/boxes/moog
+*
+https://app.vagrantup.com/oppara/boxes/CentOS-7-dev
 
 * run wildfly remote
 ./standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0 &
