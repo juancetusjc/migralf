@@ -1,0 +1,22 @@
+{
+	"layouts": [
+		{
+			"columns": [
+				[
+					{
+						"portletId": "58"
+					}
+				],
+				[
+					{
+						"portletId": "47"
+					}
+				]
+			],
+			"friendlyURL": "/home",
+			"name": "Welcome Portal Escale",
+			"title": "Welcome Portal Escale"
+		}
+	],
+	"layoutTemplateId": "2_columns_ii"
+}
