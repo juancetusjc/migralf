@@ -56,6 +56,18 @@ hr, .separator:last-child {
     height: auto;
 }
 
+
+#banner .site-title {
+    float: none;
+    margin: 0;
+    /*margin: 15px 0 0;*/
+    position: static;
+    background:     url(../images/application/logo_med.png) no-repeat right 25px;
+}
+
+
+
+
 #banner .company-title {
     float: none;
     margin: 0;
