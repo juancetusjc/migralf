@@ -1,4 +1,4 @@
-  <#-- ---------- Common variables ---------- -->
+<#-- ---------- Common variables ---------- -->
 
 <#assign
 	theme_display = themeDisplay

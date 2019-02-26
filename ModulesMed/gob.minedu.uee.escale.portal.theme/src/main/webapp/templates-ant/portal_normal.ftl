@@ -14,13 +14,13 @@
 
 <body class="${css_class}">
 
-<@liferay_ui["quick-access"] contentId="#main-content" />
 
 <@liferay_util["include"] page=body_top_include />
 
 <@liferay.control_menu />
 
 <div class="container-fluid" id="wrapper">
+	
 	<header id="banner" role="banner">
 		<div id="heading">
 			<h1 class="site-title">
@@ -48,10 +48,7 @@
 	<section id="content">
 		<h1 class="hide-accessible">${the_title}</h1>
 
-		<nav id="breadcrumbs">
-			<@liferay.breadcrumbs />
-		</nav>
-
+	
 		<#if selectable>
 			<@liferay_util["include"] page=content_include />
 		<#else>
@@ -66,8 +63,9 @@
 	</section>
 
 	<footer id="footer" role="contentinfo">
-		<p class="powered-by">
-			<@liferay.language key="powered-by" /> <a href="http://www.liferay.com" rel="external">Liferay</a>
+		<p class="powered-by"> © ESCALE - Unidad de Estadística Educativa - Ministerio de Educación - 2019
+			<br/>
+                        Correo electr&oacute;nico - <a href="http://www.google.com/recaptcha/mailhide/d?k=01Mue9jrwnlYcXvY8K63Z1bg==&amp;c=y-EcrEo_YwLoIG7lARp2Ao6o98jK3wwQ4GumsBltYiw=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501Mue9jrwnlYcXvY8K63Z1bg\75\75\46c\75y-EcrEo_YwLoIG7lARp2Ao6o98jK3wwQ4GumsBltYiw\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Mostrar el correo electrÃ³nico completo">esc...@minedu.gob.pe</a>
 		</p>
 	</footer>
 </div>

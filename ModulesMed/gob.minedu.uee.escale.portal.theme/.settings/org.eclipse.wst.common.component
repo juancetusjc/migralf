@@ -6,6 +6,6 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <property name="context-root" value="gob.minedu.uee.escale.portal.theme"/>
         <property name="java-output-path" value="/gob.minedu.uee.escale.portal.theme/target/classes"/>
-        <property name="component.exclusion.patterns" value="**/*.scss"/>
+        <property name="component.exclusion.patterns"/>
     </wb-module>
 </project-modules>

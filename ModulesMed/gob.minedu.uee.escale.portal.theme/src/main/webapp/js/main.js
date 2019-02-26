@@ -1,32 +1,35 @@
 AUI().ready(
-    'liferay-hudcrumbs',
-    function(A) {
-        if (Liferay.Browser.isIe() && Liferay.Browser.getMajorVersion() < 7) {
-            var navigation = A.one('#navigation > ul');
 
-            if (navigation) {
-                navigation.delegate(
-                    'mouseenter',
-                    function(event) {
-                        event.currentTarget.addClass('hover');
-                    },
-                    '> li'
-                    );
+	/*
+	This function gets loaded when all the HTML, not including the portlets, is
+	loaded.
+	*/
 
-                navigation.delegate(
-                    'mouseleave',
-                    function(event) {
-                        event.currentTarget.removeClass('hover');
-                    },
-                    '> li'
-                    );
-            }
-        }
+	function() {
+	}
+);
 
-        var siteBreadcrumbs = A.one('.site-breadcrumbs');
+Liferay.Portlet.ready(
 
-        if (siteBreadcrumbs) {
-            siteBreadcrumbs.plug(A.Hudcrumbs);
-        }
-    }
-    );
+	/*
+	This function gets loaded after each and every portlet on the page.
+
+	portletId: the current portlet's id
+	node: the Alloy Node object of the current portlet
+	*/
+
+	function(portletId, node) {
+	}
+);
+
+Liferay.on(
+	'allPortletsReady',
+
+	/*
+	This function gets loaded when everything, including the portlets, is on
+	the page.
+	*/
+
+	function() {
+	}
+);
