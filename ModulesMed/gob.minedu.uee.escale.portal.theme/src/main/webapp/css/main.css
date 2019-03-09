@@ -2,9 +2,15 @@
 /*
 @import url(custom.css);
 */
+/*
 @import url(base.css);
 @import url(font_awesome.css);
 @import url(custom_ue.css);
+@import url(custom_escale.css);
+@import url(base.css);
+*/
+@import url(custom_ue.css);
+
 .loadingmask-message {
     background: transparent;
     border-width: 0;
@@ -4338,8 +4344,8 @@ input.switch:empty~.switch-bar:after, input.switch:empty~.switch-bar:before, inp
 
 .navbar-classic {
     /*background: url(../images/back_decoration_nav.png) #0058ba no-repeat right top;*/
-    /*background-color: #FFF*/
-    background-color: #2d55a8
+    background-color: #FFF
+    
     
 }
 

@@ -3,7 +3,7 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 
-	<div aria-expanded="false" class="navbar navbar-classic navbar-top py-3" id="navigationCollapse">
+	<div aria-expanded="false" class="collapse navbar-collapse" id="navigationCollapse">
 		<@liferay.navigation_menu instance_id="main_navigation_menu" default_preferences="${freeMarkerPortletPreferences}"/>
 	</div>
 </#if>
