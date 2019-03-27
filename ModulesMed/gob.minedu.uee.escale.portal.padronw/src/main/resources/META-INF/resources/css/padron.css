@@ -1,0 +1,372 @@
+/* 
+    Document   : padron
+    Created on : 18/01/2011, 04:42:51 PM
+    Author     : dsilva
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+#tableForm{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+.clear{clear: both}
+.input-line label{    
+    display: block;
+    width: 90px;
+    float: left;
+    margin-left: 10px;
+}
+.input-line{
+    margin-bottom: 5px;
+}
+
+.input-line-tab label{
+    display: block;
+    width: 80px;
+    float: left;
+}
+.input-line-tab{
+    margin-bottom: 7px;
+}
+
+
+
+.input-line-tab1 label{
+    display: block;
+    width: 108px;
+    float: left;
+}
+.input-line-tab1{
+    margin-bottom: 7px;
+}
+
+.ui-widget{
+    font-size: 11px;
+} 
+
+#panelUbigeos{
+    float: left;
+    margin-left: 10px;
+}
+#panelDer{
+    width: 200px;
+}
+
+#opciones{
+    display: block;
+    float: right;
+}
+#cuenta{
+    margin-left: 120px;
+    display: block;
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+}
+#botones{
+    float: left;
+}
+#img_cargando{display: none;}
+#listadoIIEE{
+    background: gray;
+    width: 100%;
+}
+#listadoIIEE thead{
+    background: silver;
+
+}
+#listadoIIEE tbody{
+    background: white;
+}
+.paginador {
+    width: 100%;
+    display: block;
+}
+.paginador a,.paginador span{
+    margin: 0 10px;
+}
+#infos{
+     margin: 10px 25px 10px 10px;
+     border: 1px solid black;
+     padding:10px 10px 10px 10px;
+     width: 290px;
+    
+}
+#info{
+    font-family:Arial;
+    font-size: 12px;
+    margin-bottom: 5px;
+    
+}
+#info table{
+     width: 100%;
+      
+}
+#info h1{
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color:  #055FCD  ;
+}
+#info fieldset{
+    padding: 0 20px 20px;
+}
+#info fieldset legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+#info-dato{
+    font-family:Arial;
+}
+#info-dato titulo{
+
+}
+
+.estadistica  {
+    background: gray;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.estadistica thead {
+    background:silver;
+    
+}
+.estadistica tbody {
+    background: white;
+}
+.estadistica td,.estadistica th{
+    font-size: 12px;
+    color: #333333;
+    padding: 5px;
+}
+#info table.info th{
+    text-align: left;
+    padding: 20px 50px 0 0;
+}
+#info table.info th:first-child{
+    padding-top: 10px;
+}
+#info table.info td{
+    padding: 0px 50px 0 0;
+}
+#info table.info tr.titulos,#info td.titulo{    
+    padding: 1px 10px 1px 0px;
+    width: 90px;
+}
+#info td.dato{    
+    padding: 1px 10px 1px 0px;
+    
+}
+#info td.resalt{
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0px 0px 7px 0px;
+}
+
+table#identificacion td{
+    padding: 0px 0px 5px 10px;
+    border-bottom: 0.5pt solid #98A0A0;
+}
+
+table#identificacion td.dato{
+    border-right: 0.5pt solid #98A0A0;
+    width: 250px;
+}
+
+table#identificacion td.titulo{
+    font-weight: bold;
+    background-color: #D0D2D2;
+    width: 130px;
+}
+
+.numero{
+    text-align: right;    
+}
+#listadoIIEE thead th,#listadoIIEE tbody td{
+    padding: 5px;
+}
+#listadoIIEE tbody tr.par{
+    background: #ffffff;
+}
+
+#resumen .grado
+{   font-size: 12px;
+    color: #333333;
+}
+#listadoIIEE tbody tr.impar{
+    background: #dddddd;
+}
+#listadoCentros{
+    overflow: scroll;
+    display: block;
+    /*width: 100%;*/
+    height: 600px;
+    width: 959px;
+}
+a#selector_campos{
+    background-image: url(../images/table_insert_column.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    padding: 0 0 0 20px;
+    /*display: block;
+        margin-right: 20px;*/
+    width: 150px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+a#exportar_excel{
+    background-image: url(../images/excel-icon.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    /*padding: 0 0 0 20px; */
+    display: none;
+    width: 24px;
+    float: left;
+}
+@media print{
+    #btnImprimir{
+        display: none;
+    }
+}
+table.filtro{    
+    width: 100%;
+     font-size: 11px;
+}
+table.filtro-sub{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 100%;
+    font-size: 11px;
+}
+
+
+.filtro-sub .etiqueta{
+    padding:5px 5px 5px 5px;
+    /*padding-left: 15px;
+    padding-right: 5px;*/
+    font-weight: bold;
+    vertical-align: top;
+}
+.filtro-sub td label{
+    margin-right: 5px;
+    margin-left: 0px;
+}
+.filtro-sub td div.inline{
+    display: block;
+    float: left;
+
+}
+.filtro td div.inline_right{
+    display: block;
+    float: none;
+    padding-left: 10px;    
+}
+
+
+
+
+
+.filtro .etiqueta{
+    padding:5px 5px 5px 5px;
+    /*padding-left: 15px;
+    padding-right: 5px;*/    
+    font-weight: bold;
+    vertical-align: top;
+}
+.filtro td label{
+    margin-right: 5px;
+    margin-left: 0px;
+}
+.filtro td div.inline{
+    display: block;
+    float: left;
+
+}
+.filtro td div.inline_right{
+    display: block;
+    float: none;
+    padding-left: 10px
+
+}
+#botonera{
+    background: #B9CDE5;
+    border: 1px solid #B9CDE5;
+}
+#botonera td{
+    padding: 3px 15px;
+}
+#buscar{
+    font-size: 1.1em;
+}
+#limpiar{
+    font-size: 0.9em;
+}
+.celeste,.ui-tabs .ui-tabs-panel {
+    background: #DCE6F2;
+}
+#input-izquierdo{
+    width: 220px;
+    padding-left: 3px;
+    padding-top: 15px;
+    border-top: 1px solid #B9CDE5;
+    border-left: 1px solid #B9CDE5;
+}
+.controles{
+   vertical-align: top;
+}
+#input-derecho{
+    border-top: 1px solid #B9CDE5;
+    border-right:  1px solid #B9CDE5;
+}
+
+.tabs-1{
+    width: 200px;
+}
+.tabs-2
+{
+    width: 200px;
+}
+
+
+#aviso_map {
+    width: 145px;
+    position: relative;/*this will position the div according to its parent div "map"*/
+    top: 10px;
+    left: 10px; /*place the div wherever you want with top and left px, em or % values*/
+
+    background-color: #2e6e9e;
+    background-image: none;
+    opacity: .5; /*for real browsers (Chrome, Firefox, Safari..)*/
+    filter:alpha(opacity=60); /* for IE */
+    }
+.box {
+    position:relative;
+    width:400px;
+    height:200px;
+    background-color:#ddd;
+}
+
+.close {
+    position:absolute;
+    top:-6px;
+    right:-6px;
+}
+
+.close a {
+    background: url(http://cdn3.iconfinder.com/data/icons/lynx/22x22/actions/dialog-close.png) no-repeat transparent;
+    display:inline-block;
+    height:22px;
+    width:22px;
+    text-indent:-9999px;
+    z-index:9999;
+}
